@@ -31,8 +31,12 @@ function shortenAtWord(text: string, maxChars: number): { text: string; truncate
 }
 
 export function CourseCard({ course }: CourseCardProps) {
-  const { resourceCount } = course
+  const { resourceCount, subtopicCount } = course
   const description = shortenAtWord(course.description, HOVER_DESCRIPTION_MAX_CHARS)
+  const meta = [
+    subtopicCount > 0 && `${subtopicCount} topic${subtopicCount === 1 ? '' : 's'}`,
+    resourceCount > 0 && `${resourceCount} resource${resourceCount === 1 ? '' : 's'}`,
+  ].filter(Boolean)
 
   return (
     <div className="course-card">
@@ -51,9 +55,7 @@ export function CourseCard({ course }: CourseCardProps) {
               </>
             )}
           </p>
-          <span className="course-card__meta">
-            {resourceCount > 0 ? `${resourceCount} resource${resourceCount === 1 ? '' : 's'}` : 'Coming soon'}
-          </span>
+          <span className="course-card__meta">{meta.length > 0 ? meta.join(' · ') : 'Coming soon'}</span>
         </div>
         {/* {imageCredit && (
           <a className="course-card__credit" href={imageCredit.url} target="_blank" rel="noreferrer">

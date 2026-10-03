@@ -40,8 +40,14 @@
 
 .course-page__body {
   display: flex;
-  gap: 28px;
+  flex-direction: column;
+  gap: 24px;
   padding: 0 clamp(16px, 4vw, 56px) 56px;
+}
+
+.course-page__resources {
+  display: flex;
+  gap: 28px;
   align-items: flex-start;
 }
 
@@ -62,7 +68,7 @@
 }
 
 @media (max-width: 760px) {
-  .course-page__body {
+  .course-page__resources {
     flex-direction: column;
   }
 

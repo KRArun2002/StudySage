@@ -33,4 +33,11 @@ public sealed class CoursesController(IContentRepository content) : ControllerBa
         var resources = content.GetCourseResources(courseId);
         return resources is null ? NotFound() : Ok(resources);
     }
+
+    [HttpGet("{courseId}/subtopics")]
+    public ActionResult<IReadOnlyList<SubtopicDto>> GetCourseSubtopics(string courseId)
+    {
+        var subtopics = content.GetCourseSubtopics(courseId);
+        return subtopics is null ? NotFound() : Ok(subtopics);
+    }
 }
