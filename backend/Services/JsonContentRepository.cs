@@ -11,12 +11,14 @@ public sealed class JsonContentRepository : IContentRepository
     private readonly IReadOnlyList<CourseDto> _allCourses;
     private readonly IReadOnlyDictionary<string, CourseEntry> _coursesById;
     private readonly IReadOnlySet<string> _playlistIds;
+    private readonly IReadOnlyDictionary<(string CourseId, string ResourceId), string> _studyGuides;
 
     private sealed record CourseEntry(CourseDto Course, IReadOnlyList<Resource> Resources, IReadOnlyList<SubtopicDto> Subtopics);
 
     public JsonContentRepository()
     {
-        var path = Path.Combine(AppContext.BaseDirectory, "Data", "content.json");
+        var dataDirectory = Path.Combine(AppContext.BaseDirectory, "Data");
+        var path = Path.Combine(dataDirectory, "content.json");
         var json = File.ReadAllText(path);
         var file = JsonSerializer.Deserialize<ContentFile>(json, new JsonSerializerOptions(JsonSerializerDefaults.Web))
             ?? throw new InvalidOperationException($"Could not read content from {path}.");
@@ -26,6 +28,7 @@ public sealed class JsonContentRepository : IContentRepository
         var allCourses = new List<CourseDto>();
         var coursesById = new Dictionary<string, CourseEntry>();
         var playlistIds = new HashSet<string>();
+        var studyGuides = new Dictionary<(string, string), string>();
 
         // Dictionary.Add throws on duplicate ids, so content mistakes fail fast at startup.
         foreach (var topic in file.Topics)
@@ -41,6 +44,10 @@ public sealed class JsonContentRepository : IContentRepository
                     playlistIds.UnionWith(subtopic.Playlists.Select(playlist => playlist.PlaylistId));
                 }
                 playlistIds.UnionWith(course.Resources.OfType<YoutubePlaylistResource>().Select(resource => resource.PlaylistId));
+                foreach (var guide in course.Resources.OfType<StudyGuideResource>())
+                {
+                    studyGuides.Add((course.Id, guide.Id), ReadStudyGuide(dataDirectory, guide.File));
+                }
 
                 var dto = new CourseDto(
                     course.Id,
@@ -67,6 +74,22 @@ public sealed class JsonContentRepository : IContentRepository
         _allCourses = allCourses;
         _coursesById = coursesById;
         _playlistIds = playlistIds;
+        _studyGuides = studyGuides;
+    }
+
+    /// <summary>Reads a guide at startup so a missing or misplaced file fails fast instead of on first view.</summary>
+    private static string ReadStudyGuide(string dataDirectory, string relativePath)
+    {
+        var fullPath = Path.GetFullPath(Path.Combine(dataDirectory, relativePath));
+        if (!fullPath.StartsWith(dataDirectory + Path.DirectorySeparatorChar, StringComparison.Ordinal))
+        {
+            throw new InvalidOperationException($"Study guide path '{relativePath}' must stay inside the Data folder.");
+        }
+        if (!File.Exists(fullPath))
+        {
+            throw new InvalidOperationException($"Study guide file 'Data/{relativePath}' was not found.");
+        }
+        return File.ReadAllText(fullPath);
     }
 
     // Tab keys the course page uses for its built-in tabs (see CoursePage.tsx).
@@ -125,4 +148,7 @@ public sealed class JsonContentRepository : IContentRepository
         _coursesById.TryGetValue(courseId, out var entry) ? entry.Subtopics : null;
 
     public bool IsKnownPlaylist(string playlistId) => _playlistIds.Contains(playlistId);
+
+    public string? GetStudyGuide(string courseId, string resourceId) =>
+        _studyGuides.GetValueOrDefault((courseId, resourceId));
 }

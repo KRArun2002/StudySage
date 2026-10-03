@@ -11,11 +11,18 @@
           "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
           "resources": [
             {
-              "type": "document",
-              "id": "ds-all-pdf",
-              "title": "MIT 6.006 — Lecture 1 Notes: Algorithmic Thinking",
-              "description": "MIT OpenCourseWare lecture notes PDF, embedded directly in the course page.",
-              "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/477c78e0af2df61fa205bcc6cb613ceb_MIT6_006S20_lec1.pdf"
+              "type": "study_guide",
+              "id": "arrays-notes",
+              "title": "Arrays: Playlist Study Notes",
+              "description": "A summary of all 16 videos in the Neso Academy “Arrays in C” playlist, with a cheat sheet and code.",
+              "file": "guides/arrays.md"
+            },
+            {
+              "type": "study_guide",
+              "id": "linked-lists-notes",
+              "title": "Linked Lists: Playlist Study Notes",
+              "description": "A study guide to both Linked Lists playlists (Jenny’s Lectures and Neso Academy): singly, doubly and circular lists, with C code.",
+              "file": "guides/linked-lists.md"
             }
           ],
           "interactiveElement": {
@@ -186,14 +193,23 @@
           "title": "Stacks & Queues",
           "description": "Learn LIFO and FIFO structures and the classic problems they unlock, from balanced parentheses to task scheduling.",
           "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
-          "resources": [],
-          "interactiveElement": {
-            "type": "ds-visualizer",
-            "modules": [
-              "stack",
-              "queue"
-            ]
-          },
+          "resources": [
+            {
+              "type": "study_guide",
+              "id": "stacks-notes",
+              "title": "Stacks: Playlist Study Notes",
+              "description": "A study guide to the Neso Academy Stacks playlist: array and linked-list stacks, brackets, infix to postfix, and exam problems.",
+              "file": "guides/stacks.md"
+            },
+            {
+              "type": "study_guide",
+              "id": "queues-notes",
+              "title": "Queues: Playlist Study Notes",
+              "description": "A study guide to the Dinesh Varyani Queue playlist: enqueue and dequeue in Java, a queue application, and priority queues with binary heaps.",
+              "file": "guides/queues.md"
+            }
+          ],
+          "interactiveElement": { "type": "ds-visualizer", "modules": ["stack", "queue"] },
           "subtopics": [
             {
               "id": "stacks",
@@ -340,10 +356,18 @@
           "accentGradient": "linear-gradient(135deg, #11998e, #38ef7d)",
           "resources": [
             {
-              "type": "document",
-              "id": "ds-tg-pdf",
-              "title": "MIT 6.006 — Lecture 1 Notes: Algorithmic Thinking",
-              "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/477c78e0af2df61fa205bcc6cb613ceb_MIT6_006S20_lec1.pdf"
+              "type": "study_guide",
+              "id": "trees-notes",
+              "title": "Trees: Playlist Study Notes",
+              "description": "A study guide to the Dinesh Varyani Binary Tree playlist: recursive and iterative traversals, BSTs, and interview problems, in Java.",
+              "file": "guides/trees.md"
+            },
+            {
+              "type": "study_guide",
+              "id": "graphs-notes",
+              "title": "Graphs: Playlist Study Notes",
+              "description": "A study guide to the WilliamFiset Graph Theory playlist: DFS, BFS, topological sort, Dijkstra and beyond, marked by level.",
+              "file": "guides/graphs.md"
             }
           ],
           "interactiveElement": {
