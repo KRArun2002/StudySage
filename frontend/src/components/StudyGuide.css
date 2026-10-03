@@ -1,0 +1,156 @@
+.study-guide {
+  max-width: 820px;
+  padding: 28px 32px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-raised);
+  font-size: 15px;
+  line-height: 1.65;
+  color: #e4e4e7;
+}
+
+.study-guide > :first-child {
+  margin-top: 0;
+}
+
+.study-guide h1 {
+  font-size: 26px;
+  line-height: 1.25;
+  margin-bottom: 12px;
+  color: var(--text);
+}
+
+.study-guide h2 {
+  font-size: 20px;
+  margin: 36px 0 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+}
+
+.study-guide h3 {
+  font-size: 16.5px;
+  margin: 30px 0 6px;
+  color: var(--text);
+}
+
+.study-guide p,
+.study-guide ul,
+.study-guide ol,
+.study-guide blockquote,
+.study-guide pre,
+.study-guide__table {
+  margin: 0 0 14px;
+}
+
+.study-guide ul,
+.study-guide ol {
+  padding-left: 22px;
+}
+
+.study-guide li + li {
+  margin-top: 4px;
+}
+
+.study-guide a {
+  color: #8ab4ff;
+  text-decoration: none;
+}
+
+.study-guide a:hover {
+  text-decoration: underline;
+}
+
+/* The "Watch on YouTube" line directly under each video heading. */
+.study-guide h3 + p > a:only-child {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.study-guide strong {
+  color: var(--text);
+}
+
+.study-guide em {
+  color: var(--text-muted);
+}
+
+.study-guide blockquote {
+  padding: 10px 16px;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.study-guide blockquote p {
+  margin: 0;
+}
+
+.study-guide hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 32px 0;
+}
+
+.study-guide code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.88em;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--bg-card);
+  color: #f0c674;
+}
+
+.study-guide pre {
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: #0f0f12;
+  overflow-x: auto;
+}
+
+.study-guide pre code {
+  padding: 0;
+  background: none;
+  color: #e4e4e7;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.study-guide__table {
+  overflow-x: auto;
+}
+
+.study-guide table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+}
+
+.study-guide th,
+.study-guide td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.study-guide th {
+  color: var(--text-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.study-guide__status {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+@media (max-width: 560px) {
+  .study-guide {
+    padding: 20px 16px;
+  }
+}

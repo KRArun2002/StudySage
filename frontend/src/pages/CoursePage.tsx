@@ -128,7 +128,7 @@ function CoursePageContent({ course, topicTitle, resources, subtopics }: CourseP
             <div className="course-page__resources">
               <ResourceSidebar resources={resources} selectedId={selectedResource.id} onSelect={setSelectedResourceId} />
               <div className="course-page__main">
-                <ResourceViewer resource={selectedResource} />
+                <ResourceViewer courseId={course.id} resource={selectedResource} />
               </div>
             </div>
           ) : (

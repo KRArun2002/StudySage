@@ -18,6 +18,9 @@ public interface IContentRepository
 
     IReadOnlyList<SubtopicDto>? GetCourseSubtopics(string courseId);
 
+    /// <summary>The Markdown text of a study guide resource, or null if the course has no such guide.</summary>
+    string? GetStudyGuide(string courseId, string resourceId);
+
     /// <summary>True when some course references this YouTube playlist, so the API only proxies known playlists.</summary>
     bool IsKnownPlaylist(string playlistId);
 }
