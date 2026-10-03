@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { useAnimator, type Status } from './animation'
+import { useAnimator, WALKTHROUGH_PACE, type Status } from './animation'
 import { Button, ControlGroup, Legend, OutputRow, Select, VisualizerLayout } from './controls'
 
 const LABELS = 'ABCDEFGHIJKL'.split('')
@@ -123,7 +123,7 @@ export function GraphVisualizer() {
       for (const next of frames) {
         setFrame({ ...next, algorithm })
         setStatus({ text: next.note, tone: 'info', complexity: 'O(V + E)' })
-        await step()
+        await step(WALKTHROUGH_PACE)
       }
       const last = frames[frames.length - 1]
       setFrame({ ...last, current: null, frontier: [], aux: [], algorithm })

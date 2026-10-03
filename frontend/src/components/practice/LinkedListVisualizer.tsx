@@ -1,5 +1,5 @@
 import { Fragment, useState } from 'react'
-import { newId, parseIndex, parseNumberList, parseValue, randomValues, useAnimator, type Status, type Step } from './animation'
+import { newId, parseIndex, parseNumberList, parseValue, randomValues, useAnimator, WALKTHROUGH_PACE, type Status, type Step } from './animation'
 import { Button, ControlGroup, Field, Legend, VisualizerLayout } from './controls'
 
 const MAX_NODES = 10
@@ -163,13 +163,13 @@ export function LinkedListVisualizer() {
         setTones({ [nodes[i].id]: 'active' })
         setPointers(labelsAt(nodes, [['prev', i - 1], ['curr', i], ['next', i + 1]]))
         setStatus({ text: `Save next = curr.next (${nextText}) so we don't lose the rest of the list.`, tone: 'info', complexity: 'O(n)' })
-        await step()
+        await step(WALKTHROUGH_PACE)
         setFlipped(i + 1)
         setStatus({ text: `curr.next = prev: ${nodes[i].value} now points to ${prevText}.`, tone: 'info', complexity: 'O(n)' })
-        await step()
+        await step(WALKTHROUGH_PACE)
         setStatus({ text: 'Advance: prev = curr, curr = next.', tone: 'info', complexity: 'O(n)' })
         setPointers(labelsAt(nodes, [['prev', i], ['curr', i + 1]]))
-        await step(0.6)
+        await step(WALKTHROUGH_PACE * 0.6)
       }
       const reversed = [...nodes].reverse()
       finish(reversed, { [reversed[0].id]: 'found' }, {

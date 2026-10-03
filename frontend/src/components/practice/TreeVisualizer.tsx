@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { newId, parseNumberList, parseValue, randomValues, useAnimator, type Status, type Step } from './animation'
+import { newId, parseNumberList, parseValue, randomValues, useAnimator, WALKTHROUGH_PACE, type Status, type Step } from './animation'
 import { Button, ControlGroup, Field, Legend, OutputRow, VisualizerLayout } from './controls'
 
 const MAX_NODES = 15
@@ -272,7 +272,7 @@ export function TreeVisualizer() {
         setTones(nextTones)
         setTraversal({ order, output: frame.output, aux: frame.aux })
         setStatus({ text: frame.note, tone: 'info', complexity: 'O(n)' })
-        await step()
+        await step(WALKTHROUGH_PACE)
       }
       const visitedTones: Record<number, Tone> = {}
       for (const id of frames[frames.length - 1].visited) visitedTones[id] = 'visited'

@@ -18,7 +18,8 @@ const MODULES: Record<VisualizerModule, { label: string; component: ComponentTyp
   graph: { label: 'Graph', component: GraphVisualizer },
 }
 
-const SPEEDS = [0.5, 1, 1.5, 2, 3]
+const SPEEDS = [0.25, 0.5, 0.75, 1, 1.5, 2, 3]
+const DEFAULT_SPEED_INDEX = SPEEDS.indexOf(1)
 
 interface PracticePanelProps {
   modules: VisualizerModule[]
@@ -27,7 +28,8 @@ interface PracticePanelProps {
 export function PracticePanel({ modules }: PracticePanelProps) {
   const available = modules.filter((module) => module in MODULES)
   const [active, setActive] = useState<VisualizerModule>(available[0])
-  const [speed, setSpeed] = useState(1)
+  const [speedIndex, setSpeedIndex] = useState(DEFAULT_SPEED_INDEX)
+  const speed = SPEEDS[speedIndex]
 
   if (available.length === 0) return null
   const Active = MODULES[active].component
@@ -39,16 +41,35 @@ export function PracticePanel({ modules }: PracticePanelProps) {
           <h2 className="practice__title">Interactive Practice</h2>
           <p className="practice__subtitle">Run operations step by step and watch how the structure changes.</p>
         </div>
-        <label className="practice__speed">
-          <span>Speed</span>
-          <select value={speed} onChange={(event) => setSpeed(Number(event.target.value))}>
-            {SPEEDS.map((option) => (
-              <option key={option} value={option}>
-                {option}×
-              </option>
-            ))}
-          </select>
-        </label>
+        {/* Takes effect immediately, even in the middle of a running animation. */}
+        <div className="practice__speed" role="group" aria-label="Animation speed">
+          <span className="practice__speed-label">Animation speed</span>
+          <button
+            type="button"
+            className="practice__speed-btn"
+            onClick={() => setSpeedIndex((index) => Math.max(index - 1, 0))}
+            disabled={speedIndex === 0}
+          >
+            − Slower
+          </button>
+          <button
+            type="button"
+            className="practice__speed-value"
+            onClick={() => setSpeedIndex(DEFAULT_SPEED_INDEX)}
+            title="Reset to 1×"
+            aria-live="polite"
+          >
+            {speed}×
+          </button>
+          <button
+            type="button"
+            className="practice__speed-btn"
+            onClick={() => setSpeedIndex((index) => Math.min(index + 1, SPEEDS.length - 1))}
+            disabled={speedIndex === SPEEDS.length - 1}
+          >
+            Faster +
+          </button>
+        </div>
       </div>
 
       {available.length > 1 && (

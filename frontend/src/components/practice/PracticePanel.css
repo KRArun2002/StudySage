@@ -34,18 +34,41 @@
 .practice__speed {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   font-size: 13px;
-  color: var(--text-muted);
 }
 
-.practice__speed select {
-  background: var(--bg-raised);
-  color: var(--text);
+.practice__speed-label {
+  color: var(--text-muted);
+  margin-right: 4px;
+}
+
+.practice__speed-btn,
+.practice__speed-value {
   border: 1px solid var(--border);
   border-radius: 6px;
-  padding: 6px 8px;
-  font: inherit;
+  background: var(--bg-card);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+
+.practice__speed-btn:hover:not(:disabled),
+.practice__speed-value:hover {
+  border-color: var(--text-muted);
+}
+
+.practice__speed-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.practice__speed-value {
+  min-width: 56px;
+  background: var(--bg-raised);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
 .practice__tabs {

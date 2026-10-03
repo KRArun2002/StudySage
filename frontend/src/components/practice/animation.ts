@@ -6,6 +6,9 @@ export const SpeedContext = createContext(1)
 /** Base delay between animation steps at 1× speed. */
 const BASE_STEP_MS = 700
 
+/** Extra delay factor for multi-step walkthroughs (list reversal, tree and graph traversals) so each step can be followed. */
+export const WALKTHROUGH_PACE = 2
+
 class AnimationCancelled extends Error {}
 
 export type Step = (delayFactor?: number) => Promise<void>
