@@ -1,0 +1,45 @@
+.resource-viewer {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  height: 100%;
+}
+
+.resource-viewer__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.resource-viewer__description {
+  margin-top: 6px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.resource-viewer__stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 0;
+}
+
+.resource-viewer__frame {
+  flex: 1;
+  width: 100%;
+  min-height: 420px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #000;
+}
+
+.resource-viewer__fallback-link {
+  align-self: flex-start;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.resource-viewer__fallback-note {
+  font-size: 13px;
+  color: var(--text-muted);
+}

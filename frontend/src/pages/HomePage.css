@@ -1,0 +1,36 @@
+.home-page {
+  min-height: 100svh;
+  background: var(--bg);
+}
+
+.home-page__hero {
+  padding: 24px clamp(16px, 4vw, 56px) 48px;
+  margin-top: -84px;
+  padding-top: 108px;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, var(--bg) 100%),
+    linear-gradient(135deg, #3a0a0a, #1a0303 60%, var(--bg));
+}
+
+.home-page__hero-title {
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 800;
+  max-width: 700px;
+  line-height: 1.15;
+}
+
+.home-page__hero-subtitle {
+  margin-top: 14px;
+  font-size: 16px;
+  color: var(--text-muted);
+  max-width: 560px;
+}
+
+.home-page__rows {
+  padding-bottom: 48px;
+}
+
+.home-page__status {
+  padding: 0 clamp(16px, 4vw, 56px);
+  color: var(--text-muted);
+}

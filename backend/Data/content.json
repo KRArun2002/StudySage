@@ -1,0 +1,196 @@
+{
+  "topics": [
+    {
+      "id": "data-structures",
+      "title": "Data Structures",
+      "courses": [
+        {
+          "id": "ds-arrays-linked-lists",
+          "title": "Arrays & Linked Lists",
+          "description": "Build intuition for the most fundamental linear data structures, how they lay out memory, and when to reach for each one.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "resources": [
+            {
+              "type": "youtube_video",
+              "id": "ds-all-video",
+              "title": "Data Structures Easy to Advanced Course (freeCodeCamp)",
+              "description": "Full walkthrough covering arrays, linked lists, and more — swap for your own video anytime.",
+              "videoId": "RBSGKlAvoiM"
+            },
+            {
+              "type": "document",
+              "id": "ds-all-pdf",
+              "title": "MIT 6.006 — Lecture 1 Notes: Algorithmic Thinking",
+              "description": "MIT OpenCourseWare lecture notes PDF, embedded directly in the course page.",
+              "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/477c78e0af2df61fa205bcc6cb613ceb_MIT6_006S20_lec1.pdf"
+            },
+            {
+              "type": "external_link",
+              "id": "ds-all-visualgo",
+              "title": "VisuAlgo — Array & List Visualizations",
+              "description": "Interactive visualizations of array and linked list operations.",
+              "url": "https://visualgo.net/en"
+            }
+          ],
+          "interactiveElement": null
+        },
+        {
+          "id": "ds-stacks-queues",
+          "title": "Stacks & Queues",
+          "description": "Learn LIFO and FIFO structures and the classic problems they unlock, from balanced parentheses to task scheduling.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "resources": [
+            {
+              "type": "youtube_playlist",
+              "id": "ds-sq-playlist",
+              "title": "Data Structures & Algorithms Full Course (Abdul Bari)",
+              "description": "A complete DSA playlist — browse and play any video without leaving the page.",
+              "playlistId": "PLsr8vTgyLdy_YndxNcI4WkH5Vorj5qvrv"
+            },
+            {
+              "type": "external_link",
+              "id": "ds-sq-visualgo",
+              "title": "VisuAlgo — Stack & Queue Visualizations",
+              "url": "https://visualgo.net/en"
+            }
+          ],
+          "interactiveElement": null
+        },
+        {
+          "id": "ds-trees-graphs",
+          "title": "Trees & Graphs",
+          "description": "Move from linear to hierarchical and networked data: binary trees, heaps, and graph representations.",
+          "accentGradient": "linear-gradient(135deg, #11998e, #38ef7d)",
+          "resources": [
+            {
+              "type": "youtube_video",
+              "id": "ds-tg-video",
+              "title": "Data Structures Easy to Advanced Course (freeCodeCamp)",
+              "description": "Same full course — jump to the trees & graphs chapters.",
+              "videoId": "RBSGKlAvoiM"
+            },
+            {
+              "type": "document",
+              "id": "ds-tg-pdf",
+              "title": "MIT 6.006 — Lecture 1 Notes: Algorithmic Thinking",
+              "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/477c78e0af2df61fa205bcc6cb613ceb_MIT6_006S20_lec1.pdf"
+            }
+          ],
+          "interactiveElement": null
+        }
+      ]
+    },
+    {
+      "id": "algorithms-analysis",
+      "title": "Algorithms and Analysis",
+      "courses": [
+        {
+          "id": "algo-complexity",
+          "title": "Big-O & Complexity Analysis",
+          "description": "The vocabulary for talking about algorithm performance: time and space complexity, best/worst/average case.",
+          "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)",
+          "resources": [
+            {
+              "type": "document",
+              "id": "algo-complexity-pdf",
+              "title": "MIT 6.006 — Lecture 1 Notes: Algorithmic Thinking",
+              "description": "Official MIT OpenCourseWare notes introducing algorithmic analysis.",
+              "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/477c78e0af2df61fa205bcc6cb613ceb_MIT6_006S20_lec1.pdf"
+            },
+            {
+              "type": "youtube_video",
+              "id": "algo-complexity-video",
+              "title": "Data Structures Easy to Advanced Course (freeCodeCamp)",
+              "videoId": "RBSGKlAvoiM"
+            }
+          ],
+          "interactiveElement": null
+        },
+        {
+          "id": "algo-sorting",
+          "title": "Sorting Algorithms",
+          "description": "Compare bubble, merge, quick, and heap sort — how they work, their complexity, and when each one wins.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "resources": [
+            {
+              "type": "youtube_playlist",
+              "id": "algo-sorting-playlist",
+              "title": "Data Structures & Algorithms Full Course (Abdul Bari)",
+              "playlistId": "PLsr8vTgyLdy_YndxNcI4WkH5Vorj5qvrv"
+            },
+            {
+              "type": "external_link",
+              "id": "algo-sorting-visualgo",
+              "title": "VisuAlgo — Sorting Visualizations",
+              "description": "Step through bubble, merge, quick, and heap sort visually.",
+              "url": "https://visualgo.net/en/sorting"
+            }
+          ],
+          "interactiveElement": null
+        },
+        {
+          "id": "algo-dynamic-programming",
+          "title": "Dynamic Programming",
+          "description": "Recognize overlapping subproblems and optimal substructure, and practice turning recursion into DP.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "resources": [
+            {
+              "type": "youtube_playlist",
+              "id": "algo-dp-playlist",
+              "title": "Data Structures & Algorithms Full Course (Abdul Bari)",
+              "playlistId": "PLsr8vTgyLdy_YndxNcI4WkH5Vorj5qvrv"
+            }
+          ],
+          "interactiveElement": null
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "title": "React",
+      "courses": [
+        { "id": "react-fundamentals", "title": "React Fundamentals", "description": "Components, props, and state.", "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)", "resources": [], "interactiveElement": null },
+        { "id": "react-hooks", "title": "Hooks in Depth", "description": "useState, useEffect, and custom hooks.", "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)", "resources": [], "interactiveElement": null },
+        { "id": "react-state-management", "title": "State Management", "description": "Context, Redux, and modern alternatives.", "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)", "resources": [], "interactiveElement": null },
+        { "id": "react-performance", "title": "Performance Optimization", "description": "Memoization, code-splitting, and profiling.", "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)", "resources": [], "interactiveElement": null }
+      ]
+    },
+    {
+      "id": "dotnet",
+      "title": ".NET",
+      "courses": [
+        { "id": "dotnet-aspnet-core", "title": "ASP.NET Core Basics", "description": "Building web APIs with controllers and middleware.", "accentGradient": "linear-gradient(135deg, #11998e, #38ef7d)", "resources": [], "interactiveElement": null },
+        { "id": "dotnet-ef-core", "title": "Entity Framework Core", "description": "Data access and migrations.", "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)", "resources": [], "interactiveElement": null },
+        { "id": "dotnet-minimal-apis", "title": "Minimal APIs", "description": "Lightweight endpoints without controllers.", "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)", "resources": [], "interactiveElement": null },
+        { "id": "dotnet-csharp-advanced", "title": "Advanced C#", "description": "LINQ, async/await, and generics.", "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)", "resources": [], "interactiveElement": null }
+      ]
+    },
+    {
+      "id": "databases",
+      "title": "Databases",
+      "courses": [
+        { "id": "db-sql-fundamentals", "title": "SQL Fundamentals", "description": "Querying relational databases.", "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)", "resources": [], "interactiveElement": null },
+        { "id": "db-indexing", "title": "Indexing & Performance", "description": "How databases stay fast at scale.", "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)", "resources": [], "interactiveElement": null },
+        { "id": "db-nosql", "title": "NoSQL Databases", "description": "Document, key-value, and graph stores.", "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)", "resources": [], "interactiveElement": null }
+      ]
+    },
+    {
+      "id": "system-design",
+      "title": "System Design",
+      "courses": [
+        { "id": "sd-scalability", "title": "Scalability Basics", "description": "Horizontal vs. vertical scaling, caching, load balancing.", "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)", "resources": [], "interactiveElement": null },
+        { "id": "sd-microservices", "title": "Microservices", "description": "Service boundaries, communication, and trade-offs.", "accentGradient": "linear-gradient(135deg, #11998e, #38ef7d)", "resources": [], "interactiveElement": null },
+        { "id": "sd-distributed-systems", "title": "Distributed Systems", "description": "Consistency, availability, and partition tolerance.", "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)", "resources": [], "interactiveElement": null }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "title": "Machine Learning",
+      "courses": [
+        { "id": "ml-foundations", "title": "ML Foundations", "description": "Supervised vs. unsupervised learning.", "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)", "resources": [], "interactiveElement": null },
+        { "id": "ml-neural-networks", "title": "Neural Networks", "description": "From perceptrons to deep learning.", "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)", "resources": [], "interactiveElement": null },
+        { "id": "ml-nlp", "title": "Natural Language Processing", "description": "Text, embeddings, and transformers.", "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)", "resources": [], "interactiveElement": null }
+      ]
+    }
+  ]
+}

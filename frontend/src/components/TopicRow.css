@@ -1,0 +1,22 @@
+.topic-row {
+  padding: 18px 0;
+}
+
+.topic-row__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 clamp(16px, 4vw, 56px) 12px;
+}
+
+.topic-row__track {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 8px clamp(16px, 4vw, 56px) 24px;
+  scroll-behavior: smooth;
+}
+
+.topic-row__track::-webkit-scrollbar {
+  display: none;
+}

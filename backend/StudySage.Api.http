@@ -1,6 +1,16 @@
-@StudySage.Api_HostAddress = http://localhost:5293
+@baseUrl = http://localhost:5293
 
-GET {{StudySage.Api_HostAddress}}/weatherforecast/
-Accept: application/json
+### List topics
+GET {{baseUrl}}/api/topics
 
-###
+### List courses in a topic
+GET {{baseUrl}}/api/topics/data-structures/courses
+
+### List all courses (optionally filtered)
+GET {{baseUrl}}/api/courses?topicId=data-structures
+
+### Get one course
+GET {{baseUrl}}/api/courses/ds-arrays-linked-lists
+
+### Get resources for a course
+GET {{baseUrl}}/api/courses/ds-arrays-linked-lists/resources
