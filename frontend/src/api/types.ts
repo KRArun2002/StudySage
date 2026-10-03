@@ -10,6 +10,8 @@ export interface CourseSummary {
   description: string
   accentGradient: string
   resourceCount: number
+  /** Number of topic tabs (e.g. Arrays, Linked Lists), each with its own playlists and practice problems. */
+  subtopicCount: number
   /** The practice element for this course, or null when the course has none yet. */
   interactiveElement: InteractiveElement | null
 }
@@ -57,3 +59,42 @@ export type Resource =
   | YoutubePlaylistResource
   | DocumentResource
   | ExternalLinkResource
+
+export interface PlaylistRef {
+  id: string
+  title: string
+  description?: string | null
+  playlistId: string
+}
+
+export type Difficulty = 'Easy' | 'Medium' | 'Hard'
+
+export interface PracticeProblem {
+  /** The LeetCode slug; also the key used to remember whether the problem is solved. */
+  id: string
+  title: string
+  difficulty: Difficulty
+  url: string
+}
+
+export interface Subtopic {
+  id: string
+  title: string
+  description?: string | null
+  playlists: PlaylistRef[]
+  problems: PracticeProblem[]
+}
+
+export interface PlaylistVideo {
+  videoId: string
+  title: string
+  thumbnailUrl: string
+}
+
+export interface PlaylistVideos {
+  playlistId: string
+  title: string | null
+  videos: PlaylistVideo[]
+  /** False when only the first part of a longer playlist could be loaded. */
+  isComplete: boolean
+}

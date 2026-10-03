@@ -7,7 +7,11 @@ interface CourseCardProps {
 }
 
 export function CourseCard({ course }: CourseCardProps) {
-  const { resourceCount } = course
+  const { resourceCount, subtopicCount } = course
+  const meta = [
+    subtopicCount > 0 && `${subtopicCount} topic${subtopicCount === 1 ? '' : 's'}`,
+    resourceCount > 0 && `${resourceCount} resource${resourceCount === 1 ? '' : 's'}`,
+  ].filter(Boolean)
 
   return (
     <Link to={`/course/${course.id}`} className="course-card">
@@ -18,7 +22,7 @@ export function CourseCard({ course }: CourseCardProps) {
         <h3 className="course-card__title">{course.title}</h3>
         <p className="course-card__description">{course.description}</p>
         <span className="course-card__meta">
-          {resourceCount > 0 ? `${resourceCount} resource${resourceCount === 1 ? '' : 's'}` : 'Coming soon'}
+          {meta.length > 0 ? meta.join(' · ') : 'Coming soon'}
         </span>
       </div>
     </Link>

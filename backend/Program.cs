@@ -17,6 +17,9 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddSingleton<IContentRepository, JsonContentRepository>();
+builder.Services.Configure<YouTubeOptions>(builder.Configuration.GetSection("YouTube"));
+builder.Services.AddMemoryCache();
+builder.Services.AddHttpClient<IPlaylistService, YouTubePlaylistService>(client => client.Timeout = TimeSpan.FromSeconds(10));
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
