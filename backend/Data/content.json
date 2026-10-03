@@ -326,7 +326,7 @@
               ]
             }
           ],
-          "imageUrl": "/course-images/S&Q.jpeg",
+          "imageUrl": "/course-images/S&Q.jpg",
           "imageCredit": {
             "name": "James Webb Space Telescope",
             "url": "https://www.flickr.com/photos/50785054@N03/52460606229",
@@ -503,7 +503,7 @@
           "title": "Hash Tables",
           "description": "An introduction to hash tables with clear explanations and practical examples.",
           "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)",
-          "imageUrl": "/course-images/hashtable.jpg",
+          "imageUrl": "/course-images/hashtable.png",
           "resources": [],
           "interactiveElement": null,
           "imageCredit": {
