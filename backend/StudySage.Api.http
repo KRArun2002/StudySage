@@ -15,6 +15,9 @@ GET {{baseUrl}}/api/courses/ds-arrays-linked-lists
 ### Get resources for a course
 GET {{baseUrl}}/api/courses/ds-arrays-linked-lists/resources
 
+### Get the Markdown text of a study guide resource
+GET {{baseUrl}}/api/courses/ds-arrays-linked-lists/resources/arrays-notes/content
+
 ### Get topic tabs (playlists + practice problems) for a course
 GET {{baseUrl}}/api/courses/ds-arrays-linked-lists/subtopics
 

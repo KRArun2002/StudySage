@@ -6,6 +6,7 @@ const TYPE_LABELS: Record<ResourceType, string> = {
   youtube_playlist: 'Playlist',
   document: 'Document',
   external_link: 'Link',
+  study_guide: 'Notes',
 }
 
 interface ResourceSidebarProps {

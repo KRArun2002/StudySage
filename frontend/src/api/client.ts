@@ -9,12 +9,16 @@ export class ApiError extends Error {
   }
 }
 
-async function getJson<T>(path: string): Promise<T> {
+async function get(path: string): Promise<Response> {
   const response = await fetch(path)
   if (!response.ok) {
     throw new ApiError(response.status, `Request to ${path} failed with status ${response.status}`)
   }
-  const data: T = await response.json()
+  return response
+}
+
+async function getJson<T>(path: string): Promise<T> {
+  const data: T = await (await get(path)).json()
   return data
 }
 
@@ -28,6 +32,11 @@ export const api = {
 
   getCourseResources: (courseId: string) =>
     getJson<Resource[]>(`/api/courses/${encodeURIComponent(courseId)}/resources`),
+
+  getStudyGuide: (courseId: string, resourceId: string) =>
+    get(`/api/courses/${encodeURIComponent(courseId)}/resources/${encodeURIComponent(resourceId)}/content`).then(
+      (response) => response.text(),
+    ),
 
   getCourseSubtopics: (courseId: string) =>
     getJson<Subtopic[]>(`/api/courses/${encodeURIComponent(courseId)}/subtopics`),

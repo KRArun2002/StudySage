@@ -25,7 +25,7 @@ export interface DataStructureVisualizerElement {
 
 export type InteractiveElement = DataStructureVisualizerElement
 
-export type ResourceType = 'youtube_video' | 'youtube_playlist' | 'document' | 'external_link'
+export type ResourceType = 'youtube_video' | 'youtube_playlist' | 'document' | 'external_link' | 'study_guide'
 
 interface ResourceBase {
   id: string
@@ -54,11 +54,17 @@ export interface ExternalLinkResource extends ResourceBase {
   url: string
 }
 
+/** Markdown notes written for the course; the text is fetched separately from the resource list. */
+export interface StudyGuideResource extends ResourceBase {
+  type: 'study_guide'
+}
+
 export type Resource =
   | YoutubeVideoResource
   | YoutubePlaylistResource
   | DocumentResource
   | ExternalLinkResource
+  | StudyGuideResource
 
 export interface PlaylistRef {
   id: string

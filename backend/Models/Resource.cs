@@ -8,6 +8,7 @@ namespace StudySage.Api.Models;
 [JsonDerivedType(typeof(YoutubePlaylistResource), "youtube_playlist")]
 [JsonDerivedType(typeof(DocumentResource), "document")]
 [JsonDerivedType(typeof(ExternalLinkResource), "external_link")]
+[JsonDerivedType(typeof(StudyGuideResource), "study_guide")]
 public abstract record Resource(string Id, string Title, string? Description);
 
 public sealed record YoutubeVideoResource(string Id, string Title, string? Description, string VideoId)
@@ -20,4 +21,8 @@ public sealed record DocumentResource(string Id, string Title, string? Descripti
     : Resource(Id, Title, Description);
 
 public sealed record ExternalLinkResource(string Id, string Title, string? Description, string Url)
+    : Resource(Id, Title, Description);
+
+/// <summary>A Markdown document stored alongside the content, e.g. <c>guides/arrays.md</c> under <c>Data/</c>.</summary>
+public sealed record StudyGuideResource(string Id, string Title, string? Description, string File)
     : Resource(Id, Title, Description);

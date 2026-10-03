@@ -1,24 +1,29 @@
 import type { Resource } from '../api/types'
+import { StudyGuide } from './StudyGuide'
 import { youtubePlaylistEmbedUrl, youtubeVideoEmbedUrl } from '../utils/youtube'
 import './ResourceViewer.css'
 
 interface ResourceViewerProps {
+  courseId: string
   resource: Resource
 }
 
-export function ResourceViewer({ resource }: ResourceViewerProps) {
+export function ResourceViewer({ courseId, resource }: ResourceViewerProps) {
   return (
     <div className="resource-viewer">
-      <div className="resource-viewer__header">
-        <h2 className="resource-viewer__title">{resource.title}</h2>
-        {resource.description && <p className="resource-viewer__description">{resource.description}</p>}
-      </div>
-      <div className="resource-viewer__stage">{renderStage(resource)}</div>
+      {/* Study guides open with their own title and introduction. */}
+      {resource.type !== 'study_guide' && (
+        <div className="resource-viewer__header">
+          <h2 className="resource-viewer__title">{resource.title}</h2>
+          {resource.description && <p className="resource-viewer__description">{resource.description}</p>}
+        </div>
+      )}
+      <div className="resource-viewer__stage">{renderStage(courseId, resource)}</div>
     </div>
   )
 }
 
-function renderStage(resource: Resource) {
+function renderStage(courseId: string, resource: Resource) {
   switch (resource.type) {
     case 'youtube_video':
       return (
@@ -64,5 +69,7 @@ function renderStage(resource: Resource) {
           </p>
         </>
       )
+    case 'study_guide':
+      return <StudyGuide key={resource.id} courseId={courseId} resourceId={resource.id} />
   }
 }
