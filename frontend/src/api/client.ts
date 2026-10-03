@@ -1,4 +1,4 @@
-import type { CourseSummary, Resource, TopicSummary } from './types'
+import type { CourseSummary, PlaylistVideos, Resource, Subtopic, TopicSummary } from './types'
 
 export class ApiError extends Error {
   status: number
@@ -28,4 +28,10 @@ export const api = {
 
   getCourseResources: (courseId: string) =>
     getJson<Resource[]>(`/api/courses/${encodeURIComponent(courseId)}/resources`),
+
+  getCourseSubtopics: (courseId: string) =>
+    getJson<Subtopic[]>(`/api/courses/${encodeURIComponent(courseId)}/subtopics`),
+
+  getPlaylistVideos: (playlistId: string) =>
+    getJson<PlaylistVideos>(`/api/playlists/${encodeURIComponent(playlistId)}/videos`),
 }

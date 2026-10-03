@@ -15,4 +15,9 @@ public interface IContentRepository
     CourseDto? GetCourse(string courseId);
 
     IReadOnlyList<Resource>? GetCourseResources(string courseId);
+
+    IReadOnlyList<SubtopicDto>? GetCourseSubtopics(string courseId);
+
+    /// <summary>True when some course references this YouTube playlist, so the API only proxies known playlists.</summary>
+    bool IsKnownPlaylist(string playlistId);
 }

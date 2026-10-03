@@ -14,3 +14,9 @@ GET {{baseUrl}}/api/courses/ds-arrays-linked-lists
 
 ### Get resources for a course
 GET {{baseUrl}}/api/courses/ds-arrays-linked-lists/resources
+
+### Get topic tabs (playlists + practice problems) for a course
+GET {{baseUrl}}/api/courses/ds-arrays-linked-lists/subtopics
+
+### Get the videos in a playlist referenced by a course
+GET {{baseUrl}}/api/playlists/PLnccP3XNVxGrks-guEVjE1xj9V9YC5oQ7/videos
