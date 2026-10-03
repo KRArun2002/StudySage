@@ -9,6 +9,8 @@ export interface CourseSummary {
   title: string
   description: string
   accentGradient: string
+  imageUrl: string | null
+  imageCredit: { name: string; url: string; license: string } | null
   resourceCount: number
   /** Reserved for a future AI-powered interactive exercise. Always null for now. */
   interactiveElement: unknown | null

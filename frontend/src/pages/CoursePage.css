@@ -11,28 +11,17 @@
 }
 
 .course-page__banner {
-  margin-top: -84px;
-  padding: 120px clamp(16px, 4vw, 56px) 40px;
-  position: relative;
-}
-
-.course-page__banner::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), var(--bg) 95%);
+  padding: 24px clamp(16px, 4vw, 56px) 32px;
 }
 
 .course-page__banner-content {
-  position: relative;
-  z-index: 1;
   max-width: 760px;
 }
 
 .course-page__back {
   display: inline-block;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.85);
+  color: var(--text-muted);
   text-decoration: none;
   margin-bottom: 16px;
 }
@@ -40,14 +29,13 @@
 .course-page__title {
   font-size: clamp(26px, 4vw, 40px);
   font-weight: 800;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .course-page__description {
   margin-top: 12px;
   font-size: 15px;
   line-height: 1.5;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  color: var(--text-muted);
 }
 
 .course-page__body {

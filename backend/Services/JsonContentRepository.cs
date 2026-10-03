@@ -39,6 +39,8 @@ public sealed class JsonContentRepository : IContentRepository
                     course.Title,
                     course.Description,
                     course.AccentGradient,
+                    course.ImageUrl,
+                    course.ImageCredit,
                     course.Resources.Count,
                     course.InteractiveElement);
 

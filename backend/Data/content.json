@@ -32,7 +32,13 @@
               "url": "https://visualgo.net/en"
             }
           ],
-          "interactiveElement": null
+          "interactiveElement": null,
+          "imageUrl": "/course-images/A&L.png",
+          "imageCredit": {
+            "name": "Silver Novice of the Wirral",
+            "url": "https://www.flickr.com/photos/25965795@N02/51799784715",
+            "license": "CC BY"
+          }
         },
         {
           "id": "ds-stacks-queues",
@@ -54,7 +60,13 @@
               "url": "https://visualgo.net/en"
             }
           ],
-          "interactiveElement": null
+          "interactiveElement": null,
+          "imageUrl": "/course-images/S&Q.jpeg",
+          "imageCredit": {
+            "name": "James Webb Space Telescope",
+            "url": "https://www.flickr.com/photos/50785054@N03/52460606229",
+            "license": "CC BY"
+          }
         },
         {
           "id": "ds-trees-graphs",
@@ -76,7 +88,111 @@
               "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/477c78e0af2df61fa205bcc6cb613ceb_MIT6_006S20_lec1.pdf"
             }
           ],
-          "interactiveElement": null
+          "interactiveElement": null,
+          "imageUrl": "/course-images/T&G.jpeg",
+          "imageCredit": {
+            "name": "James Webb Space Telescope",
+            "url": "https://www.flickr.com/photos/50785054@N03/52460606229",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "data-structures-hash-tables",
+          "title": "Hash Tables",
+          "description": "An introduction to hash tables with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)",
+          "imageUrl": "/course-images/hashtable.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "David Jackmanson",
+            "url": "https://www.flickr.com/photos/58301516@N00/53519823791",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "data-structures-heaps--priority-queues",
+          "title": "Heaps & Priority Queues",
+          "description": "An introduction to heaps & priority queues with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "imageUrl": "/course-images/PQ&H.jpeg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "James Webb Space Telescope",
+            "url": "https://www.flickr.com/photos/50785054@N03/52460606229",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "data-structures-tries",
+          "title": "Tries",
+          "description": "An introduction to tries with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "imageUrl": "https://live.staticflickr.com/65535/52045411203_c1a1d3d758_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "CapeHatterasNPS",
+            "url": "https://www.flickr.com/photos/106602675@N05/52045411203",
+            "license": "Public domain"
+          }
+        },
+        {
+          "id": "data-structures-graph-representations",
+          "title": "Graph Representations",
+          "description": "An introduction to graph representations with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "imageUrl": "https://live.staticflickr.com/65535/54300078781_5eb36bdfc7_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "amandabhslater",
+            "url": "https://www.flickr.com/photos/15181848@N02/54300078781",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "data-structures-union-find-disjoint-sets",
+          "title": "Union-Find (Disjoint Sets)",
+          "description": "An introduction to union-find (disjoint sets) with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)",
+          "imageUrl": "https://live.staticflickr.com/65535/52460606229_ae8a37de8e_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "James Webb Space Telescope",
+            "url": "https://www.flickr.com/photos/50785054@N03/52460606229",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "data-structures-segment-trees",
+          "title": "Segment Trees",
+          "description": "An introduction to segment trees with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "imageUrl": "https://live.staticflickr.com/65535/51919987048_4a157429c2_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Bonnie Moreland (free images)",
+            "url": "https://www.flickr.com/photos/66741228@N05/51919987048",
+            "license": "Public domain"
+          }
+        },
+        {
+          "id": "data-structures-bloom-filters",
+          "title": "Bloom Filters",
+          "description": "An introduction to bloom filters with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "imageUrl": "https://live.staticflickr.com/65535/51720746630_da76f0f2d7_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Gael Varoquaux",
+            "url": "https://www.flickr.com/photos/66885349@N03/51720746630",
+            "license": "CC BY"
+          }
         }
       ]
     },
@@ -104,7 +220,13 @@
               "videoId": "RBSGKlAvoiM"
             }
           ],
-          "interactiveElement": null
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/52654854957_831f0b5f66_b.jpg",
+          "imageCredit": {
+            "name": "₡ґǘșϯγ Ɗᶏ Ⱪᶅṏⱳդ",
+            "url": "https://www.flickr.com/photos/148598741@N02/52654854957",
+            "license": "CC0"
+          }
         },
         {
           "id": "algo-sorting",
@@ -126,7 +248,13 @@
               "url": "https://visualgo.net/en/sorting"
             }
           ],
-          "interactiveElement": null
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/51720746630_da76f0f2d7_b.jpg",
+          "imageCredit": {
+            "name": "dullhunk",
+            "url": "https://www.flickr.com/photos/14829735@N00/51842921175",
+            "license": "CC BY"
+          }
         },
         {
           "id": "algo-dynamic-programming",
@@ -141,7 +269,111 @@
               "playlistId": "PLsr8vTgyLdy_YndxNcI4WkH5Vorj5qvrv"
             }
           ],
-          "interactiveElement": null
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/52302207952_d3b27ae58f_b.jpg",
+          "imageCredit": {
+            "name": "James Webb Space Telescope",
+            "url": "https://www.flickr.com/photos/50785054@N03/52302207952",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "algorithms-analysis-greedy-algorithms",
+          "title": "Greedy Algorithms",
+          "description": "An introduction to greedy algorithms with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)",
+          "imageUrl": "https://live.staticflickr.com/65535/52184562781_4fd20858a9_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "₡ґǘșϯγ Ɗᶏ Ⱪᶅṏⱳդ",
+            "url": "https://www.flickr.com/photos/148598741@N02/52654854957",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "algorithms-analysis-divide--conquer",
+          "title": "Divide & Conquer",
+          "description": "An introduction to divide & conquer with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "imageUrl": "https://live.staticflickr.com/65535/51869025757_7f1104a512_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "arthur.strathearn",
+            "url": "https://www.flickr.com/photos/142603527@N02/51869025757",
+            "license": "Public domain"
+          }
+        },
+        {
+          "id": "algorithms-analysis-backtracking",
+          "title": "Backtracking",
+          "description": "An introduction to backtracking with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "imageUrl": "https://live.staticflickr.com/220/493685990_18076bc2bc.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "tony.evans",
+            "url": "https://www.flickr.com/photos/80418937@N00/493685990",
+            "license": "CC BY-ND"
+          }
+        },
+        {
+          "id": "algorithms-analysis-binary-search-variants",
+          "title": "Binary Search Variants",
+          "description": "An introduction to binary search variants with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "imageUrl": "https://live.staticflickr.com/65535/52654854957_831f0b5f66_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "₡ґǘșϯγ Ɗᶏ Ⱪᶅṏⱳդ",
+            "url": "https://www.flickr.com/photos/148598741@N02/52654854957",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "algorithms-analysis-bfs--dfs",
+          "title": "BFS & DFS",
+          "description": "An introduction to bfs & dfs with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)",
+          "imageUrl": "https://live.staticflickr.com/65535/54057256705_02686fdf79_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Senado Federal",
+            "url": "https://www.flickr.com/photos/49143546@N06/54057256705",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "algorithms-analysis-shortest-paths",
+          "title": "Shortest Paths",
+          "description": "An introduction to shortest paths with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "imageUrl": "https://live.staticflickr.com/65535/52407103348_54d13ab792_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "TETSUKARE",
+            "url": "https://www.flickr.com/photos/76881191@N07/52407103348",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "algorithms-analysis-string-matching",
+          "title": "String Matching",
+          "description": "An introduction to string matching with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "imageUrl": "https://live.staticflickr.com/65535/51768392370_d21b5b8a97_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "jurvetson",
+            "url": "https://www.flickr.com/photos/44124348109@N01/51768392370",
+            "license": "CC BY"
+          }
         }
       ]
     },
@@ -149,47 +381,730 @@
       "id": "react",
       "title": "React",
       "courses": [
-        { "id": "react-fundamentals", "title": "React Fundamentals", "description": "Components, props, and state.", "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)", "resources": [], "interactiveElement": null },
-        { "id": "react-hooks", "title": "Hooks in Depth", "description": "useState, useEffect, and custom hooks.", "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)", "resources": [], "interactiveElement": null },
-        { "id": "react-state-management", "title": "State Management", "description": "Context, Redux, and modern alternatives.", "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)", "resources": [], "interactiveElement": null },
-        { "id": "react-performance", "title": "Performance Optimization", "description": "Memoization, code-splitting, and profiling.", "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)", "resources": [], "interactiveElement": null }
+        {
+          "id": "react-fundamentals",
+          "title": "React Fundamentals",
+          "description": "Components, props, and state.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/52401618373_9d9fbc07ea_b.jpg",
+          "imageCredit": {
+            "name": "nordique",
+            "url": "https://www.flickr.com/photos/28435100@N00/52355821069",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "react-hooks",
+          "title": "Hooks in Depth",
+          "description": "useState, useEffect, and custom hooks.",
+          "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/52273435260_d8d9692812_b.jpg",
+          "imageCredit": {
+            "name": "Chic Bee",
+            "url": "https://www.flickr.com/photos/80454089@N00/52273435260",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "react-state-management",
+          "title": "State Management",
+          "description": "Context, Redux, and modern alternatives.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/52888946919_85c8840be0.jpg",
+          "imageCredit": {
+            "name": "flexbox",
+            "url": "https://www.flickr.com/photos/49735381@N06/52888946919",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "react-performance",
+          "title": "Performance Optimization",
+          "description": "Memoization, code-splitting, and profiling.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/51942047253_8a97a61cc0_b.jpg",
+          "imageCredit": {
+            "name": "James Webb Space Telescope",
+            "url": "https://www.flickr.com/photos/50785054@N03/51942047253",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "react-jsx--rendering",
+          "title": "JSX & Rendering",
+          "description": "An introduction to jsx & rendering with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "imageUrl": "https://live.staticflickr.com/65535/52401618373_9d9fbc07ea_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "React Finland",
+            "url": "https://www.flickr.com/photos/162886786@N03/52401618373",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "react-routing-with-react-router",
+          "title": "Routing with React Router",
+          "description": "An introduction to routing with react router with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "imageUrl": "https://live.staticflickr.com/65535/52401618373_9d9fbc07ea_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "React Finland",
+            "url": "https://www.flickr.com/photos/162886786@N03/52401618373",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "react-forms--validation",
+          "title": "Forms & Validation",
+          "description": "An introduction to forms & validation with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "imageUrl": "https://live.staticflickr.com/65535/52536239214_bd41ff9829_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "James Webb Space Telescope",
+            "url": "https://www.flickr.com/photos/50785054@N03/52536239214",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "react-testing-react-apps",
+          "title": "Testing React Apps",
+          "description": "An introduction to testing react apps with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)",
+          "imageUrl": "https://live.staticflickr.com/65535/52905332162_7c36ae1e76.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "flexbox",
+            "url": "https://www.flickr.com/photos/49735381@N06/52905332162",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "react-server-components",
+          "title": "Server Components",
+          "description": "An introduction to server components with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "imageUrl": "https://cdn.stocksnap.io/img-thumbs/960w/52KJ8KZGWY.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Charlie Belvin Designs",
+            "url": "https://stocksnap.io/photo/computer-ram-52KJ8KZGWY",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "react-accessibility-in-react",
+          "title": "Accessibility in React",
+          "description": "An introduction to accessibility in react with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "imageUrl": "https://live.staticflickr.com/65535/53200936716_80b2e7d160_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "alisdare1",
+            "url": "https://www.flickr.com/photos/59952459@N08/53200936716",
+            "license": "CC BY-SA"
+          }
+        }
       ]
     },
     {
       "id": "dotnet",
       "title": ".NET",
       "courses": [
-        { "id": "dotnet-aspnet-core", "title": "ASP.NET Core Basics", "description": "Building web APIs with controllers and middleware.", "accentGradient": "linear-gradient(135deg, #11998e, #38ef7d)", "resources": [], "interactiveElement": null },
-        { "id": "dotnet-ef-core", "title": "Entity Framework Core", "description": "Data access and migrations.", "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)", "resources": [], "interactiveElement": null },
-        { "id": "dotnet-minimal-apis", "title": "Minimal APIs", "description": "Lightweight endpoints without controllers.", "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)", "resources": [], "interactiveElement": null },
-        { "id": "dotnet-csharp-advanced", "title": "Advanced C#", "description": "LINQ, async/await, and generics.", "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)", "resources": [], "interactiveElement": null }
+        {
+          "id": "dotnet-aspnet-core",
+          "title": "ASP.NET Core Basics",
+          "description": "Building web APIs with controllers and middleware.",
+          "accentGradient": "linear-gradient(135deg, #11998e, #38ef7d)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/215/493537610_ef0b70f8d1_b.jpg",
+          "imageCredit": {
+            "name": "liewcf",
+            "url": "https://www.flickr.com/photos/34353636@N00/493537610",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "dotnet-ef-core",
+          "title": "Entity Framework Core",
+          "description": "Data access and migrations.",
+          "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://www.rawpixel.com/image/13965434/image-paper-technology-public-domain",
+          "imageCredit": {
+            "name": "liewcf",
+            "url": "https://www.flickr.com/photos/34353636@N00/493537610",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "dotnet-minimal-apis",
+          "title": "Minimal APIs",
+          "description": "Lightweight endpoints without controllers.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/215/493537610_ef0b70f8d1_b.jpg",
+          "imageCredit": {
+            "name": "liewcf",
+            "url": "https://www.flickr.com/photos/34353636@N00/493537610",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "dotnet-csharp-advanced",
+          "title": "Advanced C#",
+          "description": "LINQ, async/await, and generics.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/51374852472_13b1375179_b.jpg",
+          "imageCredit": {
+            "name": "NASA Goddard Photo and Video",
+            "url": "https://www.flickr.com/photos/24662369@N07/51374852472",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "dotnet-dependency-injection",
+          "title": "Dependency Injection",
+          "description": "An introduction to dependency injection with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "imageUrl": "https://live.staticflickr.com/65535/51889828190_d059dc6385_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Y Rosen, MD & P Meseguer, MD",
+            "url": "https://www.flickr.com/photos/158161000@N04/51889828190",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "dotnet-middleware-pipeline",
+          "title": "Middleware Pipeline",
+          "description": "An introduction to middleware pipeline with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "imageUrl": "https://live.staticflickr.com/215/493537610_ef0b70f8d1_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "liewcf",
+            "url": "https://www.flickr.com/photos/34353636@N00/493537610",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "dotnet-authentication--jwt",
+          "title": "Authentication & JWT",
+          "description": "An introduction to authentication & jwt with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "imageUrl": "https://live.staticflickr.com/215/493537610_ef0b70f8d1_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "liewcf",
+            "url": "https://www.flickr.com/photos/34353636@N00/493537610",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "dotnet-background-services",
+          "title": "Background Services",
+          "description": "An introduction to background services with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)",
+          "imageUrl": "https://live.staticflickr.com/8470/8077582803_32a4e5206c_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "blizzy63",
+            "url": "https://www.flickr.com/photos/45379817@N08/8077582803",
+            "license": "Public domain"
+          }
+        },
+        {
+          "id": "dotnet-logging--observability",
+          "title": "Logging & Observability",
+          "description": "An introduction to logging & observability with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "imageUrl": "https://live.staticflickr.com/65535/52764593578_db8da6edc7_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "James Webb Space Telescope",
+            "url": "https://www.flickr.com/photos/50785054@N03/52764593578",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "dotnet-testing-with-xunit",
+          "title": "Testing with xUnit",
+          "description": "An introduction to testing with xunit with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "imageUrl": "https://live.staticflickr.com/215/493537610_ef0b70f8d1_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "liewcf",
+            "url": "https://www.flickr.com/photos/34353636@N00/493537610",
+            "license": "CC BY-SA"
+          }
+        }
       ]
     },
     {
       "id": "databases",
       "title": "Databases",
       "courses": [
-        { "id": "db-sql-fundamentals", "title": "SQL Fundamentals", "description": "Querying relational databases.", "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)", "resources": [], "interactiveElement": null },
-        { "id": "db-indexing", "title": "Indexing & Performance", "description": "How databases stay fast at scale.", "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)", "resources": [], "interactiveElement": null },
-        { "id": "db-nosql", "title": "NoSQL Databases", "description": "Document, key-value, and graph stores.", "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)", "resources": [], "interactiveElement": null }
+        {
+          "id": "db-sql-fundamentals",
+          "title": "SQL Fundamentals",
+          "description": "Querying relational databases.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/777/21727182955_e817e2e790_b.jpg",
+          "imageCredit": {
+            "name": "WIPO | OMPI",
+            "url": "https://www.flickr.com/photos/56115295@N08/52470799525",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "db-indexing",
+          "title": "Indexing & Performance",
+          "description": "How databases stay fast at scale.",
+          "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/3928/15222947808_429b281698_b.jpg",
+          "imageCredit": {
+            "name": "fusion-of-horizons",
+            "url": "https://www.flickr.com/photos/9019841@N08/15222947808",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "db-nosql",
+          "title": "NoSQL Databases",
+          "description": "Document, key-value, and graph stores.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/52470799525_b08334c263_b.jpg",
+          "imageCredit": {
+            "name": "WIPO | OMPI",
+            "url": "https://www.flickr.com/photos/56115295@N08/52470799525",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "databases-relational-modeling",
+          "title": "Relational Modeling",
+          "description": "An introduction to relational modeling with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)",
+          "imageUrl": "https://live.staticflickr.com/65535/51816035910_f57d869768.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "National Institutes of Health (NIH)",
+            "url": "https://www.flickr.com/photos/132318516@N08/51816035910",
+            "license": "Public domain"
+          }
+        },
+        {
+          "id": "databases-transactions--acid",
+          "title": "Transactions & ACID",
+          "description": "An introduction to transactions & acid with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "imageUrl": "https://live.staticflickr.com/65535/52470799525_b08334c263_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "WIPO | OMPI",
+            "url": "https://www.flickr.com/photos/56115295@N08/52470799525",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "databases-joins-explained",
+          "title": "Joins Explained",
+          "description": "An introduction to joins explained with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "imageUrl": "https://live.staticflickr.com/65535/50173865497_5219967726_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "NASA Hubble",
+            "url": "https://www.flickr.com/photos/144614754@N02/50173865497",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "databases-query-optimization",
+          "title": "Query Optimization",
+          "description": "An introduction to query optimization with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "imageUrl": "https://live.staticflickr.com/65535/52470799525_b08334c263_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "WIPO | OMPI",
+            "url": "https://www.flickr.com/photos/56115295@N08/52470799525",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "databases-stored-procedures",
+          "title": "Stored Procedures",
+          "description": "An introduction to stored procedures with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)",
+          "imageUrl": "https://live.staticflickr.com/65535/51648171638_6044c16570_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "USDAgov",
+            "url": "https://www.flickr.com/photos/41284017@N08/51648171638",
+            "license": "Public domain"
+          }
+        },
+        {
+          "id": "databases-replication-basics",
+          "title": "Replication Basics",
+          "description": "An introduction to replication basics with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "imageUrl": "https://live.staticflickr.com/65535/52059049112_70ba270972_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "jurvetson",
+            "url": "https://www.flickr.com/photos/44124348109@N01/52059049112",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "databases-redis-caching",
+          "title": "Redis Caching",
+          "description": "An introduction to redis caching with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "imageUrl": "https://live.staticflickr.com/65535/52470799525_b08334c263_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "WIPO | OMPI",
+            "url": "https://www.flickr.com/photos/56115295@N08/52470799525",
+            "license": "CC BY"
+          }
+        }
       ]
     },
     {
       "id": "system-design",
       "title": "System Design",
       "courses": [
-        { "id": "sd-scalability", "title": "Scalability Basics", "description": "Horizontal vs. vertical scaling, caching, load balancing.", "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)", "resources": [], "interactiveElement": null },
-        { "id": "sd-microservices", "title": "Microservices", "description": "Service boundaries, communication, and trade-offs.", "accentGradient": "linear-gradient(135deg, #11998e, #38ef7d)", "resources": [], "interactiveElement": null },
-        { "id": "sd-distributed-systems", "title": "Distributed Systems", "description": "Consistency, availability, and partition tolerance.", "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)", "resources": [], "interactiveElement": null }
+        {
+          "id": "sd-scalability",
+          "title": "Scalability Basics",
+          "description": "Horizontal vs. vertical scaling, caching, load balancing.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL3djczNheDJid3otaW1hZ2UuanBn.jpg",
+          "imageCredit": {
+            "name": "Unknown photographer",
+            "url": "https://www.rawpixel.com/image/13965434/image-paper-technology-public-domain",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "sd-microservices",
+          "title": "Microservices",
+          "description": "Service boundaries, communication, and trade-offs.",
+          "accentGradient": "linear-gradient(135deg, #11998e, #38ef7d)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/4367/36850350700_97377c1ae3_b.jpg",
+          "imageCredit": {
+            "name": "PLeia2",
+            "url": "https://www.flickr.com/photos/64684255@N00/36850350700",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "sd-distributed-systems",
+          "title": "Distributed Systems",
+          "description": "Consistency, availability, and partition tolerance.",
+          "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/52340659835_dac2af6b2f_b.jpg",
+          "imageCredit": {
+            "name": "rahmankci9",
+            "url": "https://www.flickr.com/photos/196345878@N06/52340659835",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "system-design-load-balancing",
+          "title": "Load Balancing",
+          "description": "An introduction to load balancing with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)",
+          "imageUrl": "https://live.staticflickr.com/65535/52017578827_332703697f_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "jurvetson",
+            "url": "https://www.flickr.com/photos/44124348109@N01/52017578827",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "system-design-caching-strategies",
+          "title": "Caching Strategies",
+          "description": "An introduction to caching strategies with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "imageUrl": "https://live.staticflickr.com/65535/51794633768_1b0050b391_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Czar Hey",
+            "url": "https://www.flickr.com/photos/161174688@N08/51794633768",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "system-design-database-sharding",
+          "title": "Database Sharding",
+          "description": "An introduction to database sharding with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL3djczNheDJid3otaW1hZ2UuanBn.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Unknown photographer",
+            "url": "https://www.rawpixel.com/image/13965434/image-paper-technology-public-domain",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "system-design-message-queues",
+          "title": "Message Queues",
+          "description": "An introduction to message queues with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "imageUrl": "https://live.staticflickr.com/65535/52880641470_afcc9a5c7f_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "alisdare1",
+            "url": "https://www.flickr.com/photos/59952459@N08/52880641470",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "system-design-rate-limiting",
+          "title": "Rate Limiting",
+          "description": "An introduction to rate limiting with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)",
+          "imageUrl": "https://live.staticflickr.com/65535/51699532464_f684f5e76d_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Archives New Zealand",
+            "url": "https://www.flickr.com/photos/35759981@N08/51699532464",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "system-design-cap-theorem",
+          "title": "CAP Theorem",
+          "description": "An introduction to cap theorem with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL3djczNheDJid3otaW1hZ2UuanBn.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Unknown photographer",
+            "url": "https://www.rawpixel.com/image/13965434/image-paper-technology-public-domain",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "system-design-api-gateways",
+          "title": "API Gateways",
+          "description": "An introduction to api gateways with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "imageUrl": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL3djczNheDJid3otaW1hZ2UuanBn.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Unknown photographer",
+            "url": "https://www.rawpixel.com/image/13965434/image-paper-technology-public-domain",
+            "license": "CC0"
+          }
+        }
       ]
     },
     {
       "id": "machine-learning",
       "title": "Machine Learning",
       "courses": [
-        { "id": "ml-foundations", "title": "ML Foundations", "description": "Supervised vs. unsupervised learning.", "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)", "resources": [], "interactiveElement": null },
-        { "id": "ml-neural-networks", "title": "Neural Networks", "description": "From perceptrons to deep learning.", "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)", "resources": [], "interactiveElement": null },
-        { "id": "ml-nlp", "title": "Natural Language Processing", "description": "Text, embeddings, and transformers.", "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)", "resources": [], "interactiveElement": null }
+        {
+          "id": "ml-foundations",
+          "title": "ML Foundations",
+          "description": "Supervised vs. unsupervised learning.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/51537204133_af6bc99189_b.jpg",
+          "imageCredit": {
+            "name": "ramalayamphotos",
+            "url": "https://www.flickr.com/photos/193381667@N03/51537204133",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "ml-neural-networks",
+          "title": "Neural Networks",
+          "description": "From perceptrons to deep learning.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/51816035910_f57d869768.jpg",
+          "imageCredit": {
+            "name": "bjornmeansbear",
+            "url": "https://www.flickr.com/photos/64519085@N00/40362455043",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "ml-nlp",
+          "title": "Natural Language Processing",
+          "description": "Text, embeddings, and transformers.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "resources": [],
+          "interactiveElement": null,
+          "imageUrl": "https://live.staticflickr.com/65535/54887789088_7d2df7a4d5_b.jpg",
+          "imageCredit": {
+            "name": "datopotskhishvili5",
+            "url": "https://www.flickr.com/photos/203706820@N03/54887789088",
+            "license": "Public domain"
+          }
+        },
+        {
+          "id": "machine-learning-linear-regression",
+          "title": "Linear Regression",
+          "description": "An introduction to linear regression with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #1a2980, #26d0ce)",
+          "imageUrl": "https://live.staticflickr.com/65535/52362630454_8f955c802d_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "ACRM-Rehabilitation",
+            "url": "https://www.flickr.com/photos/92423552@N07/52362630454",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "machine-learning-decision-trees",
+          "title": "Decision Trees",
+          "description": "An introduction to decision trees with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #f7971e, #ffd200)",
+          "imageUrl": "https://live.staticflickr.com/65535/54437810066_4c84f27168_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "cogdogblog",
+            "url": "https://www.flickr.com/photos/37996646802@N01/54437810066",
+            "license": "CC0"
+          }
+        },
+        {
+          "id": "machine-learning-clustering",
+          "title": "Clustering",
+          "description": "An introduction to clustering with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #cb2d3e, #ef473a)",
+          "imageUrl": "https://live.staticflickr.com/65535/52690101222_c57dc7fd1c_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "James Webb Space Telescope",
+            "url": "https://www.flickr.com/photos/50785054@N03/52690101222",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "machine-learning-model-evaluation",
+          "title": "Model Evaluation",
+          "description": "An introduction to model evaluation with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #2c3e50, #4ca1af)",
+          "imageUrl": "https://live.staticflickr.com/65535/49611785422_e5d4a54cd5_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "Kevin M. Gill",
+            "url": "https://www.flickr.com/photos/53460575@N03/49611785422",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "machine-learning-computer-vision",
+          "title": "Computer Vision",
+          "description": "An introduction to computer vision with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #7f00ff, #e100ff)",
+          "imageUrl": "https://live.staticflickr.com/777/21727182955_e817e2e790_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "vintagedept",
+            "url": "https://www.flickr.com/photos/42826854@N00/21727182955",
+            "license": "CC BY"
+          }
+        },
+        {
+          "id": "machine-learning-reinforcement-learning",
+          "title": "Reinforcement Learning",
+          "description": "An introduction to reinforcement learning with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #8e2de2, #4a00e0)",
+          "imageUrl": "https://live.staticflickr.com/65535/53093705560_77ccd9e8e2_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "ACRM-Rehabilitation",
+            "url": "https://www.flickr.com/photos/92423552@N07/53093705560",
+            "license": "CC BY-SA"
+          }
+        },
+        {
+          "id": "machine-learning-feature-engineering",
+          "title": "Feature Engineering",
+          "description": "An introduction to feature engineering with clear explanations and practical examples.",
+          "accentGradient": "linear-gradient(135deg, #ff512f, #dd2476)",
+          "imageUrl": "https://live.staticflickr.com/65535/52184562781_4fd20858a9_b.jpg",
+          "resources": [],
+          "interactiveElement": null,
+          "imageCredit": {
+            "name": "BLMUtah",
+            "url": "https://www.flickr.com/photos/76340031@N02/52184562781",
+            "license": "Public domain"
+          }
+        }
       ]
     }
   ]

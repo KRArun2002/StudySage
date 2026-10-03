@@ -16,12 +16,13 @@ export function HomePage() {
   return (
     <div className="home-page">
       <Navbar />
-      <div className="home-page__hero">
-        <h1 className="home-page__hero-title">Discover something worth learning.</h1>
+      <header className="home-page__hero">
+        <span className="home-page__hero-tag">Curated Learning</span>
+        <h2 className="home-page__hero-title">Find your topic, dive in.</h2>
         <p className="home-page__hero-subtitle">
-          Browse topics, start a course, and watch, read, and practice — all in one place.
+          Bite-sized courses, real resources, zero boring lectures. Pick a vibe and start learning.
         </p>
-      </div>
+      </header>
       <main className="home-page__rows">
         {loading && <p className="home-page__status">Loading topics…</p>}
         {error && <p className="home-page__status">Could not load topics. Is the backend running?</p>}

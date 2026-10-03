@@ -74,7 +74,7 @@ function CoursePageContent({ course, topicTitle, resources }: CoursePageContentP
   return (
     <div className="course-page">
       <Navbar />
-      <div className="course-page__banner" style={{ background: course.accentGradient }}>
+      <div className="course-page__banner">
         <div className="course-page__banner-content">
           <Link to="/" className="course-page__back">
             ← Back to {topicTitle}
