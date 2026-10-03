@@ -10,9 +10,18 @@ export interface CourseSummary {
   description: string
   accentGradient: string
   resourceCount: number
-  /** Reserved for a future AI-powered interactive exercise. Always null for now. */
-  interactiveElement: unknown | null
+  /** The practice element for this course, or null when the course has none yet. */
+  interactiveElement: InteractiveElement | null
 }
+
+export type VisualizerModule = 'array' | 'linked-list' | 'stack' | 'queue' | 'tree' | 'graph'
+
+export interface DataStructureVisualizerElement {
+  type: 'ds-visualizer'
+  modules: VisualizerModule[]
+}
+
+export type InteractiveElement = DataStructureVisualizerElement
 
 export type ResourceType = 'youtube_video' | 'youtube_playlist' | 'document' | 'external_link'
 

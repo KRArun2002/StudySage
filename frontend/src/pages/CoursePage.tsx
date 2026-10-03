@@ -5,6 +5,7 @@ import type { CourseSummary, Resource } from '../api/types'
 import { Navbar } from '../components/Navbar'
 import { ResourceSidebar, type SelectedKey } from '../components/ResourceSidebar'
 import { ResourceViewer } from '../components/ResourceViewer'
+import { PracticePanel } from '../components/practice/PracticePanel'
 import { useFetch } from '../hooks/useFetch'
 import './CoursePage.css'
 
@@ -89,10 +90,14 @@ function CoursePageContent({ course, topicTitle, resources }: CoursePageContentP
 
         <div className="course-page__main">
           {selectedKey === 'interactive' ? (
-            <div className="course-page__interactive-placeholder">
-              <h2>Interactive Exercise</h2>
-              <p>An AI-powered interactive learning element for this course will appear here. Coming soon.</p>
-            </div>
+            course.interactiveElement?.type === 'ds-visualizer' ? (
+              <PracticePanel modules={course.interactiveElement.modules} />
+            ) : (
+              <div className="course-page__interactive-placeholder">
+                <h2>Interactive Exercise</h2>
+                <p>An interactive learning element for this course will appear here. Coming soon.</p>
+              </div>
+            )
           ) : selectedResource ? (
             <ResourceViewer resource={selectedResource} />
           ) : (
